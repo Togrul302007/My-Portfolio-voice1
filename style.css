@@ -520,7 +520,7 @@ header{
 .buttons{
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: .8fr 1fr !important;
     gap: 5px;
     box-sizing: border-box;
 
