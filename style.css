@@ -672,7 +672,7 @@ header{
 .mynewdiv1{
     width: 120px;
     width: 100%;
-    height: 110px;
+    height: 140px;
     position: fixed;
     justify-content: center;
     text-align: center;
@@ -684,7 +684,7 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    top: -35px;
+    top: -55px;
     left: 0px;
     position: relative;
     animation-name: reload;
@@ -1416,3 +1416,4 @@ footer{
         /* min-height: 100px !important; */
     }
 }
+
