@@ -518,7 +518,7 @@ header{
     box-sizing: border-box;
 }
 .buttons{
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr !important;
     gap: 5px;
@@ -612,7 +612,7 @@ header{
     font-size: 14px;
     height: 15px;
     /* min-width: 86px; */
-    width: 100%;
+    width: 86px !important;
     text-align: center;
     border-radius: 5px;
     background-color: var(--body);
@@ -628,8 +628,9 @@ header{
     padding: 5px;
     font-size: 14px;
     height: 15px;
-    width: 100%;
+    /* width: 100%; */
     /* min-width: 86px; */
+    width: 86px !important;
     text-align: center;
     border-radius: 5px;
     background-color: var(--body);
