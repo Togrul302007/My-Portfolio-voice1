@@ -612,7 +612,8 @@ header{
     font-size: 14px;
     height: 15px;
     /* min-width: 86px; */
-    width: 86px !important;
+    width: 90px;
+    /* width: 86px !important; */
     text-align: center;
     border-radius: 5px;
     background-color: var(--body);
@@ -630,7 +631,8 @@ header{
     height: 15px;
     /* width: 100%; */
     /* min-width: 86px; */
-    width: 86px !important;
+    width: 90px;
+    /* width: 86px !important; */
     text-align: center;
     border-radius: 5px;
     background-color: var(--body);
