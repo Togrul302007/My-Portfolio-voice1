@@ -96,7 +96,7 @@ recognition.onresult = function (event) {
             );
             window.speechSynthesis.speak(response);
 
-            cvDownloaded = true; // 🔒 artıq yükləndi
+            cvDownloaded = true; 
         } else {
             const response = new SpeechSynthesisUtterance(
                 "The CV has already been downloaded"
@@ -130,4 +130,5 @@ recognition.onresult = function (event) {
             window.speechSynthesis.speak(response);
 
     };
+
 };
