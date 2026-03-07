@@ -132,3 +132,40 @@ recognition.onresult = function (event) {
     };
 
 };
+
+
+let kap1 = document.querySelector(".project-2 .git");
+function ka1(){
+    window.location.href = "https://togrul302007.github.io/Kaptalbank-Demo-1/"
+}
+
+kap1.addEventListener("click",ka1)
+
+
+let cley1 = document.querySelector(".project-5 .git");
+
+function cle1(){
+    window.location.href = "https://togrul302007.github.io/Product/"
+}
+
+cley1.addEventListener("click",cle1)
+
+//https://togrul302007.github.io/infotech/
+
+let info1 = document.querySelector(".project-3 .git");
+
+function inf1(){
+    window.location.href = "https://togrul302007.github.io/infotech/"
+}
+
+info1.addEventListener("click",inf1)
+
+//https://togrul302007.github.io/Weather-App/
+
+let weat1 = document.querySelector(".project-1 .git");
+
+function wea1(){
+    window.location.href = "https://togrul302007.github.io/Weather-App/"
+}
+
+weat1.addEventListener("click",wea1)
