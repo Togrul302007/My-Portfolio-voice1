@@ -30,7 +30,7 @@ btn.addEventListener("click", () => {
     if (!isListening) {
 
         if (!greeted) {
-            const greeting = new SpeechSynthesisUtterance("Hi Toğrul");
+            const greeting = new SpeechSynthesisUtterance("Hi Tahir");
             greeting.lang = "en-US";
 
             window.speechSynthesis.speak(greeting);
@@ -60,7 +60,7 @@ recognition.onresult = function (event) {
         document.getElementById("about")
             .scrollIntoView({ behavior: "smooth" });
 
-        const response = new SpeechSynthesisUtterance("Here is About Toğrul");
+        const response = new SpeechSynthesisUtterance("Here is About Tahir");
         window.speechSynthesis.speak(response);
     }
 
@@ -68,14 +68,14 @@ recognition.onresult = function (event) {
         document.getElementById("contact")
             .scrollIntoView({ behavior: "smooth" });
 
-        const response = new SpeechSynthesisUtterance("Here is Contact with Toğrul");
+        const response = new SpeechSynthesisUtterance("Here is Contact with Tahir");
         window.speechSynthesis.speak(response);
     }
     if (speech.includes("certificates")) {
         document.getElementById("certificates")
             .scrollIntoView({ behavior: "smooth" });
 
-        const response = new SpeechSynthesisUtterance("Here are Toğrul's certificates");
+        const response = new SpeechSynthesisUtterance("Here are Tahir's certificates");
         window.speechSynthesis.speak(response);
     }
 
@@ -83,7 +83,7 @@ recognition.onresult = function (event) {
         document.getElementById("projects")
             .scrollIntoView({ behavior: "smooth" });
 
-        const response = new SpeechSynthesisUtterance("Here is Toğrul's projects");
+        const response = new SpeechSynthesisUtterance("Here is Tahir's projects");
         window.speechSynthesis.speak(response);
     }
     if (speech.includes("download") || speech.includes("cv")) {
