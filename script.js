@@ -116,7 +116,7 @@ recognition.onresult = function (event) {
             document.getElementById("linkedln").click();
 
             const response = new SpeechSynthesisUtterance(
-                "Here is Toghrul's Linkedln Account"
+                "Here is Tahir's Linkedln Account"
             );
             window.speechSynthesis.speak(response);
 
@@ -125,7 +125,7 @@ recognition.onresult = function (event) {
             document.getElementById("github").click();
 
             const response = new SpeechSynthesisUtterance(
-                "Here is Toghrul's Github Account"
+                "Here is Tahir's Github Account"
             );
             window.speechSynthesis.speak(response);
 
