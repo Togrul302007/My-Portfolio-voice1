@@ -179,5 +179,5 @@ function processCommand(command) {
   return 'Executing: ' + command;
 }
 
-// ES Module export:
-export { processCommand };
+// // ES Module export:
+// export { processCommand };
